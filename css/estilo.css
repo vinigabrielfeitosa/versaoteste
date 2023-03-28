@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Header */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .topmenu{
+    text-align: center;
+    background-color: #d7a330;
+    height: 34px;
+  }
+
+  .topmenu a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875em;
+    line-height: 34px;
+    text-decoration: none;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    gap: 30px;
+    height: 100px;
+    border-bottom: 1px solid #232323;
+    background-color: #040404;
+    color: white;
+    align-items: center;
+  }
+
+  .logo a{
+    font-size: 35px;
+    text-decoration: none;
+    color: #d7a330;
+    font-weight: 700;
+  }
+
+  .pesquisa{
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    width: 28%;
+  }
+
+
+  .pesquisa button{
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    width: 40px;
+  }
+
+  .menu input[type=text] {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0 28px 0 34px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #d5d5d5cc;
+    border-right: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+
+  .menu a{
+    text-decoration: none;
+  }
+  
+  .iconsmenu{
+    display: flex;
+    gap: 50px;
+  }
+
+  .iconsmenu a{
+    color: white;
+  }
+
+  .submenu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #040404;
+    height: 50px;
+    align-items: center;
+    color: white;
+    /* border-bottom: 1px solid gray; */
+  }
+
+  .container-maisvendidos h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .container-lancamentos h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .categorias h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .submenu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /*  */
+
+  /*  */
+
+  .infos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+
+  .iconinfo{
+    margin-left: 33px;
+  }
+
+  .categorias{
+    margin-top: 18px;
+    justify-content: space-between;
+  }
+
+  .logos{
+    display: flex;
+  }
+
+  .container-categorias{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .iconsliga{
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .iconsliga:hover{
+    transform: scale(1.05);
+  }
+
+  .iconsliga img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    /* margin-left: 35px; */
+  }
+
+  .iconsliga a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .subcategorias{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .subcategorias .card{
+    margin-inline-start: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .card:hover{
+      transform: scale(1.03);
+  }
+
+  .subcategorias .card:hover{
+      border-bottom: 1px solid gray;
+  }
+
+  .container-maisvendidos{
+    margin-top: 30px;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+
+  .container-maisvendidos .card{
+    margin-inline-start: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .container-maisvendidos nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-lancamentos{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .container-lancamentos .card{
+    margin-inline-start: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .container-lancamentos nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .risco{
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+
+  .icons{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    gap: 20px;
+  }
+
+  .icons a{
+    /* border: 1px solid red; */
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff
+}
+
+.scrolling-wrapper {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.scrolling-wrapper .cards {
+  flex: 0 0 auto;
+}
+
+#trocarfoto{
+  gap: 40px;
+}
+
+.scrolling-wrapper #trocarfoto {
+  flex: 0 0 auto;
+}
+
+.scrolling-wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Pagina dos Produtos */
+
+#container-produto{
+  margin-top: 30px;
+}
+
+.fotopdt{
+  display: flex;
+  justify-content: center;
+  border: 0.1px solid #dfdfdf;
+  border-radius: 6px;
+}
+
+#imgpdt{
+  height: 500px;
+  width: 80%;
+}
+
+#container-nome{
+  padding: 0px 30px;
+}
+
+.nomepdt{
+  font-size: 26px;
+}
+
+.tam{
+  font-size: 18px;
+  font-weight: 380;
+  padding: 0;
+  margin: 0;
+}
+
+#lista-tam{
+  display: flex;
+  margin: 0px;
+  gap: 16px;
+  padding: 0;
+}
+
+#lista-tam li{
+  width: 42px;
+  height: 42px;
+  padding: 0 0.625rem;
+  text-align: center;
+  font-size: .875rem;
+  margin-top: 5px;
+  font-weight: 600;
+  line-height: 40px;
+  border: 1px solid gray;
+  transition: .3s ease-in-out;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px #0000002e;
+  list-style-type: none;
+  display: inline;
+}
+
+#trocarfoto{
+  opacity: 0.8;
+}
+
+.precodol{
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-right: 5px;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+#preçoreal{
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.precopdt{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#botaocompra{
+  width: 70%;
+  height: 60px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: .2s ease-out;
+  text-transform: uppercase;
+}
+
+.cep{
+  width: 40%;
+  height: 52px;
+  padding: 0;
+  border: 1px solid #dfdfdf;
+  padding: 0 28px 0 16px;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.avaliacoes{
+  margin-top: 45px;
+  text-align: center;
+}
+
+.avaliacoes h2{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+footer{
+  background-color: #040404;
+  margin-top: 30px;
+}
+
+#logoft h1{
+  font-weight: 700;
+}
+
+footer h4{
+  font-weight: 450;
+  margin-top: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.direitos{
+  height: 30px;
+  background-color: dimgrey;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+/* Responsividade */
+
+
+@media (max-width: 910px){
+  #rastrear{
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .menu{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 5px 10px;
+    gap: 0px;
+  }
+  .logo{
+    grid-area: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .pesquisa{
+    width: 100%;
+  }
+  .iconsmenu{
+    display: none;
+  }
+  .submenu{
+    display: none;
+  }
+  .carrossel img{
+    height: 280px;
+  }
+  .scrolling-wrapper{
+    justify-content: left;
+  }
+  input[type=search]{
+    /* border: 3px  solid red; */
+    /* width: 80%; */
+    margin: 0;
+  }
+  .categorias{
+    justify-content: left;
+    padding: 0;
+  }
+  .iconsliga{
+    margin-left: 0;
+    justify-content: left;
+  }
+  .iconsliga img{
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px;
+  }
+  .infos{
+    display: none;
+  }
+  .card{
+    margin: 5px 0px;
+    margin-left: 0px;
+  }
+  .subcategorias .card{
+    margin-left: 0;
+  }
+  #imgpdt{
+    height: 380px;
+    width: 100%;
+  }
+  #container-nome{
+    margin-top: 10px;
+    padding: 0 16px;
+  }
+  #container-produto{
+    margin-top: 16px;
+  }
+}

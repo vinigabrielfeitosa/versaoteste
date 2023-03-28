@@ -1,0 +1,47 @@
+{
+    "Item1":{
+        "img": "imagens/roupas/Vasco-frente.jpg",
+        "img1": "imagens/roupas/Vasco-costa.jpg",
+        "img2": "imagens/roupas/Vasco3.jpg",
+        "img3": "imagens/roupas/Vasco4.jpg",
+        "img4": "imagens/roupas/Vasco5.jpg",
+        "descricao": "Camisa Vasco Third 22/23 s/n° Torcedor Kappa Masculina",
+        "preco": 32.99
+      },
+      "Item2":{
+        "img": "imagens/roupas/Borussia frente.jpg",
+        "img1": "imagens/roupas/Borussia costa.jpg",
+        "img2": "imagens/roupas/Borussia3.jpg",
+        "img3": "imagens/roupas/Borussia4.jpg",
+        "img4": "imagens/roupas/Borussia5.jpg",
+        "descricao": "Camisa Borussia Dortmund 22/23 s/n° Torcedor Adidas Masculina",
+        "preco": 26.99
+      },
+      "Item3":{
+        "img": "imagens/roupas/Arsenal frente.jpg",
+        "img1": "imagens/roupas/Arsenal costa.jpg",
+        "img2": "imagens/roupas/Arsenal3.jpg",
+        "img3": "imagens/roupas/Arsenal4.jpg",
+        "img4": "imagens/roupas/Arsenal5.jpg",
+        "descricao": "Camisa Arsenal Home 22/23 s/n° Torcedor Adidas Masculina",
+        "preco": 32.99
+      },
+      "Item4":{
+        "img": "imagens/roupas/Real madrid frente.jpg",
+        "img1": "imagens/roupas/Real madrid costa.jpg",
+        "img2": "imagens/roupas/Realmadrid3.jpg",
+        "img3": "imagens/roupas/Realmadrid4.jpg",
+        "img4": "imagens/roupas/Realmadrid5.jpg",
+        "descricao": "Camisa Real Madrid Home 22/23 s/n° Torcedor Adidas Masculina",
+        "preco": 32.99
+      },
+      "Item5":{
+        "img": "imagens/roupas/Barcelona frente.jpg",
+        "img1": "imagens/roupas/Barcelona costa.jpg",
+        "img2": "imagens/roupas/Barcelona3.jpg",
+        "img3": "imagens/roupas/Barcelona4.jpg",
+        "img4": "imagens/roupas/Barcelona5.jpg",
+        "descricao": "Camisa Barcelona Home 22/23 s/n° Torcedor Nike Masculina",
+        "preco": 26.99
+      }
+}
